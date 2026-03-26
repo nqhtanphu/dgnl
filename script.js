@@ -121,7 +121,7 @@ const headers = lines[0].split(delimiter).map(h => h.trim());
 
     // 👉 LƯU DỮ LIỆU (QUAN TRỌNG)
     // Gửi dữ liệu lên Google Sheet
-fetch("https://script.google.com/macros/s/AKfycbx7YAbQLx4oISainL9GWHQno2_SYn-ZkCiHHEUCl3Wu4x_XJAPDCaJXKYy3BogSQsU1/exec", {
+fetch("https://script.google.com/macros/s/AKfycbyyB9i2eUcrg4oMRLOrAh0DVqjP63qUK507WfszirvA8VMh1z4b1yxQMbpqvVVlo3UG/exec", {
     method: "POST",
     headers: {
         "Content-Type": "text/plain;charset=utf-8"
